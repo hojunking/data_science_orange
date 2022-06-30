@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Datasets" position="(-4.0, 174.0)" />
+		<node id="1" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(182.0, 425.0)" />
+		<node id="2" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN" position="(52.0, 417.0)" />
+		<node id="3" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(23.0, 346.0)" />
+		<node id="4" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(290.0, 255.0)" />
+		<node id="5" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(483.0, 253.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="4" sink_node_id="5" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" />
+		<link id="2" source_node_id="2" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" />
+		<link id="3" source_node_id="1" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" />
+		<link id="4" source_node_id="3" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04)\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00+\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01M\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01,\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00}', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xe4\x00\x00\x015\x00\x00\x07/\x00\x00\x03J\x00\x00\x02\xe4\x00\x00\x015\x00\x00\x07/\x00\x00\x03J\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xe4\x00\x00\x015\x00\x00\x07/\x00\x00\x03J', 'selected_id': 'core\\iris.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': None, 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'kNN', 'metric_index': 0, 'n_neighbors': 15, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\x05\x00\x00\x01`\x00\x00\x04\xff\x00\x00\x02t\x00\x00\x04\x06\x00\x00\x01\x86\x00\x00\x04\xfe\x00\x00\x02s\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x04\x06\x00\x00\x01\x86\x00\x00\x04\xfe\x00\x00\x02s', 'weight_index': 0, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'C_index': 61, 'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'learner_name': '', 'penalty_type': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03:\x00\x00\x01\x94\x00\x00\x04E\x00\x00\x02\xa3\x00\x00\x03:\x00\x00\x01\x94\x00\x00\x04E\x00\x00\x02\xa3\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03:\x00\x00\x01\x94\x00\x00\x04E\x00\x00\x02\xa3', '__version__': 1}</properties>
+		<properties node_id="4" format="pickle">gASVzgIAAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
+bGWUiIwNY3Zfc3RyYXRpZmllZJSIjAduX2ZvbGRzlEsDjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
+bmeUSwCMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCYwTc2F2ZWRXaWRnZXRHZW9tZXRy
+eZRDQgHZ0MsAAwAAAAAAwQAAAaEAAAPOAAADuwAAAMIAAAHHAAADzQAAA7oAAAAAAAAAAAeAAAAA
+wgAAAccAAAPNAAADupSMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
+YWJsZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwDQVVDlIwDTVNFlIwGUmVjYWxslIwCUjKUjANNQUWU
+jARSTVNFlIwHQy1JbmRleJSMCVByZWNpc2lvbpSMAkYxlIwCQ0GUkHOMC19fdmVyc2lvbl9flEsD
+jBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOU
+KYGUfZQojAZ2YWx1ZXOUfZQojA9jbGFzc19zZWxlY3Rpb26UjCEoTm9uZSwgc2hvdyBhdmVyYWdl
+IG92ZXIgY2xhc3NlcymUSv////+GlIwMZm9sZF9mZWF0dXJllE5K/v///4aUjBVmb2xkX2ZlYXR1
+cmVfc2VsZWN0ZWSUiUr+////hpRoDX2UaBtLA3WMCmF0dHJpYnV0ZXOUKIwMc2VwYWwgbGVuZ3Ro
+lEsChpSMC3NlcGFsIHdpZHRolEsChpSMDHBldGFsIGxlbmd0aJRLAoaUjAtwZXRhbCB3aWR0aJRL
+AoaUdJSMBW1ldGFzlCmMCmNsYXNzX3ZhcnOUjARpcmlzlEsBhpSFlHViYXUu
+</properties>
+		<properties node_id="5" format="pickle">gASVxAEAAAAAAAB9lCiMEmFwcGVuZF9wcmVkaWN0aW9uc5SIjBRhcHBlbmRfcHJvYmFiaWxpdGll
+c5SJjAphdXRvY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21l
+dHJ5lENCAdnQywADAAAAAAC7AAABhgAAA6oAAAMAAAAAvAAAAawAAAOpAAAC/wAAAAAAAAAAB4AA
+AAC8AAABrAAAA6kAAAL/lIwQc2VsZWN0ZWRfbGVhcm5lcpSMB2NvcHlyZWeUjA5fcmVjb25zdHJ1
+Y3RvcpSTlIwIYnVpbHRpbnOUjARsaXN0lJOUaA0ph5RSlEsCYYwRc2VsZWN0ZWRfcXVhbnRpdHmU
+SwCMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0
+dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAlzZWxlY3Rpb26Uj5RoEUsBdYwH
+Y2xhc3Nlc5SMC0lyaXMtc2V0b3NhlIwPSXJpcy12ZXJzaWNvbG9ylIwOSXJpcy12aXJnaW5pY2GU
+h5R1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
