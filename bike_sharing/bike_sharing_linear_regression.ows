@@ -84,9 +84,9 @@ UmhTZYaUjAd3ZWF0aGVylEsChpSMBHRlbXCUSwKGlIwFYXRlbXCUSwKGlIwIaHVtaWRpdHmUSwKG
 lIwJd2luZHNwZWVklEsChpSMBmNhc3VhbJRLAoaUjApyZWdpc3RlcmVklEsChpSMBWNvdW50lEsC
 hpR0lGhjKWhkKWhlXZR1YmV1Lg==
 </properties>
-		<properties node_id="2" format="pickle">gASVigIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
-cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABA8AAAFW
-AAAGZgAAA60AAAQPAAABVgAABmYAAAOtAAAAAAAAAAAHgAAABA8AAAFWAAAGZgAAA62UjBJ1c2Vf
+		<properties node_id="2" format="pickle">gASV6wIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABA4AAAEw
+AAAGZwAAA64AAAQPAAABVgAABmYAAAOtAAAAAAAAAAAHgAAABA8AAAFWAAAGZgAAA62UjBJ1c2Vf
 aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
 YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
 bl9yb2xlX2hpbnRzlH2UKIwHaG9saWRheZRLAYaUjAlhdmFpbGFibGWUSwCGlIwKd29ya2luZ2Rh
@@ -94,8 +94,10 @@ eZRLAYaUaBVLAYaUjAZzZWFzb26USwGGlGgVSwKGlIwHd2VhdGhlcpRLAYaUaBVLA4aUjAhkYXRl
 dGltZZRLBIaUaBVLBIaUjApyZWdpc3RlcmVklEsChpRoFUsFhpSMBmNhc3VhbJRLAoaUaBVLBoaU
 jAR0ZW1wlEsChpSMCWF0dHJpYnV0ZZRLAIaUjAVhdGVtcJRLAoaUaCtLAYaUjAhodW1pZGl0eZRL
 AoaUaCtLAoaUjAl3aW5kc3BlZWSUSwKGlGgrSwOGlIwFY291bnSUSwKGlIwFY2xhc3OUSwCGlHVK
-/v///4aUaAdLAXWMCmF0dHJpYnV0ZXOUfZQoaCBLBGgaSwFoE0sBaBdLAWgdSwFoKUsCaC1LAmgw
-SwJoM0sCaCZLAmgjSwJoNksCdYwFbWV0YXOUfZR1YmF1Lg==
+/v///4aUaAdLAXWMCmF0dHJpYnV0ZXOUfZQojAhkYXRldGltZZRLBIwGc2Vhc29ulEsBjAdob2xp
+ZGF5lEsBjAp3b3JraW5nZGF5lEsBjAd3ZWF0aGVylEsBjAR0ZW1wlEsCjAVhdGVtcJRLAowIaHVt
+aWRpdHmUSwKMCXdpbmRzcGVlZJRLAowGY2FzdWFslEsCjApyZWdpc3RlcmVklEsCjAVjb3VudJRL
+AnWMBW1ldGFzlH2UdWJhdS4=
 </properties>
 		<properties node_id="3" format="pickle">gASVhQIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
 cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABAsAAAEy
@@ -131,12 +133,12 @@ LGghS2aGlGgKfZRoFksFdWgwfZQojAZjYXN1YWyUSwJoUUsCaC1LAmgySwKMCGRhdGV0aW1llEsE
 aDNLAmgqSwJoIUsCdWg0fZR1YmV1Lg==
 </properties>
 		<properties node_id="5" format="literal">{'alpha_index': 0, 'auto_apply': True, 'autosend': True, 'controlAreaVisible': True, 'fit_intercept': True, 'l2_ratio': 0.5, 'learner_name': '', 'reg_type': 0, 'ridge': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\xf2\x00\x00\x01\x9a\x00\x00\x05v\x00\x00\x03\x0e\x00\x00\x03\xf2\x00\x00\x01\x9a\x00\x00\x05v\x00\x00\x03\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\xf2\x00\x00\x01\x9a\x00\x00\x05v\x00\x00\x03\x0e', '__version__': 1}</properties>
-		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x80\x00\x00\x00o\x00\x00\x06)\x00\x00\x02\x89\x00\x00\x01\x81\x00\x00\x00\x95\x00\x00\x06(\x00\x00\x02\x88\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x81\x00\x00\x00\x95\x00\x00\x06(\x00\x00\x02\x88', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xe0\x00\x00\x01\xfe\x00\x00\x05\x89\x00\x00\x04\x18\x00\x00\x00\xe1\x00\x00\x02$\x00\x00\x05\x88\x00\x00\x04\x17\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xe1\x00\x00\x02$\x00\x00\x05\x88\x00\x00\x04\x17', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
 		<properties node_id="7" format="pickle">gASVIwEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
 lENCAdnQywADAAAAAAOVAAACLwAABuUAAANgAAADlgAAAlUAAAbkAAADXwAAAAAAAAAAB4AAAAOW
 AAACVQAABuQAAANflIwJc2VsZWN0aW9ulF2UjAtzaG93X3Njb3Jlc5SIjAtzY29yZV90YWJsZZR9
-lIwMc2hvd25fc2NvcmVzlI+UKIwDQVVDlIwDTVNFlIwDTUFFlIwEUk1TRZSMAlIylIwCQ0GUjAlQ
-cmVjaXNpb26UjAJGMZSMB0MtSW5kZXiUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsBjBBjb250
+lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMAkYxlIwHQy1JbmRleJSMCVByZWNpc2lvbpSMAlIy
+lIwCQ0GUjANNQUWUjANBVUOUjANNU0WUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsBjBBjb250
 ZXh0X3NldHRpbmdzlF2UdS4=
 </properties>
 		<properties node_id="8" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x99\x00\x00\x02Y\x00\x00\x06\x05\x00\x00\x04s\x00\x00\x01\x9a\x00\x00\x02\x7f\x00\x00\x06\x04\x00\x00\x04r\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x9a\x00\x00\x02\x7f\x00\x00\x06\x04\x00\x00\x04r', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
@@ -145,8 +147,8 @@ bGWUiIwNY3Zfc3RyYXRpZmllZJSIjAduX2ZvbGRzlEsDjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
 bmeUSwCMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCYwTc2F2ZWRXaWRnZXRHZW9tZXRy
 eZRDQgHZ0MsAAwAAAAAAwQAAAaEAAAPOAAADuwAAAMIAAAHHAAADzQAAA7oAAAAAAAAAAAeAAAAA
 wgAAAccAAAPNAAADupSMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
-YWJsZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwDQVVDlIwDTVNFlIwDTUFFlIwEUk1TRZSMAlIylIwC
-Q0GUjAlQcmVjaXNpb26UjAJGMZSMB0MtSW5kZXiUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsD
+YWJsZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMAkYxlIwHQy1JbmRleJSMCVByZWNpc2lv
+bpSMAlIylIwCQ0GUjANNQUWUjANBVUOUjANNU0WUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsD
 jBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJST
 lCmBlH2UKIwGdmFsdWVzlH2UKIwPY2xhc3Nfc2VsZWN0aW9ulIwhKE5vbmUsIHNob3cgYXZlcmFn
 ZSBvdmVyIGNsYXNzZXMplEr/////hpSMDGZvbGRfZmVhdHVyZZROSv7///+GlIwVZm9sZF9mZWF0
