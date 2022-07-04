@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data" position="(-332.0, 124.0)" />
-		<node id="1" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances" position="(-178.0, 232.0)" />
-		<node id="2" name="Distance Matrix" qualified_name="Orange.widgets.unsupervised.owdistancematrix.OWDistanceMatrix" project_name="Orange3" version="" title="Distance Matrix" position="(-34.0, 125.0)" />
-		<node id="3" name="Distance Map" qualified_name="Orange.widgets.unsupervised.owdistancemap.OWDistanceMap" project_name="Orange3" version="" title="Distance Map" position="(-38.0, 310.0)" />
-		<node id="4" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data (1)" position="(-323.0, 435.0)" />
-		<node id="5" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances (1)" position="(-149.0, 436.0)" />
-		<node id="6" name="Hierarchical Clustering" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" project_name="Orange3" version="" title="Hierarchical Clustering" position="(36.0, 441.0)" />
+		<node id="0" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data" position="(-329.0, 79.0)" />
+		<node id="1" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances" position="(-175.0, 187.0)" />
+		<node id="2" name="Distance Matrix" qualified_name="Orange.widgets.unsupervised.owdistancematrix.OWDistanceMatrix" project_name="Orange3" version="" title="Distance Matrix" position="(-31.0, 80.0)" />
+		<node id="3" name="Distance Map" qualified_name="Orange.widgets.unsupervised.owdistancemap.OWDistanceMap" project_name="Orange3" version="" title="Distance Map" position="(-35.0, 265.0)" />
+		<node id="4" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data (1)" position="(-334.0, 369.0)" />
+		<node id="5" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances (1)" position="(-160.0, 370.0)" />
+		<node id="6" name="Hierarchical Clustering" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" project_name="Orange3" version="" title="Hierarchical Clustering" position="(25.0, 375.0)" />
 		<node id="7" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data (2)" position="(-296.0, 605.0)" />
 		<node id="8" name="Interactive k-Means" qualified_name="orangecontrib.educational.widgets.owkmeans.OWKmeans" project_name="Orange3-Educational" version="" title="Interactive k-Means" position="(-63.0, 602.0)" />
 		<node id="9" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Datasets" position="(-319.0, 752.0)" />
@@ -142,7 +142,7 @@ RURWlEsChpSMBWNsYXNzlEsAhpR1Sv7///+GlGgHSwF1jAphdHRyaWJ1dGVzlH2UKGgvSwJoE0sC
 aBdLAmgaSwJoHUsCaDJLAmggSwJoI0sCaCZLAmgsSwJoNUsCaClLAmg4SwJoQksCdYwFbWV0YXOU
 fZQoaDtLAmg/SwJ1dWJhdS4=
 </properties>
-		<properties node_id="15" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'k': 2, 'k_from': 2, 'k_to': 8, 'max_iterations': 300, 'n_init': 10, 'normalize': True, 'optimize_k': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xec\x00\x00\x01\x81\x00\x00\x05\xdf\x00\x00\x02\xbe\x00\x00\x04\xec\x00\x00\x01\x81\x00\x00\x05\xdf\x00\x00\x02\xbe\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x04\xec\x00\x00\x01\x81\x00\x00\x05\xdf\x00\x00\x02\xbe', 'selection': 0, 'smart_init': 0, '__version__': 2}</properties>
+		<properties node_id="15" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'k': 2, 'k_from': 2, 'k_to': 8, 'max_iterations': 300, 'n_init': 10, 'normalize': True, 'optimize_k': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xec\x00\x00\x01\x81\x00\x00\x05\xdf\x00\x00\x02\xbe\x00\x00\x04\xec\x00\x00\x01\x81\x00\x00\x05\xdf\x00\x00\x02\xbe\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x04\xec\x00\x00\x01\x81\x00\x00\x05\xdf\x00\x00\x02\xbe', 'selection': None, 'smart_init': 0, '__version__': 2}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
