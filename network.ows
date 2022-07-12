@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Datasets" position="(75.0, 157.0)" />
+		<node id="1" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances" position="(195.0, 158.0)" />
+		<node id="2" name="Network From Distances" qualified_name="orangecontrib.network.widgets.OWNxFromDistances.OWNxFromDistances" project_name="Orange3-Network" version="" title="Network From Distances" position="(323.0, 159.0)" />
+		<node id="3" name="Network Analysis" qualified_name="orangecontrib.network.widgets.OWNxAnalysis.OWNxAnalysis" project_name="Orange3-Network" version="" title="Network Analysis" position="(420.0, 83.0)" />
+		<node id="4" name="Network File" qualified_name="orangecontrib.network.widgets.OWNxFile.OWNxFile" project_name="Orange3-Network" version="" title="Network File" position="(84.0, 351.0)" />
+		<node id="5" name="Network Explorer" qualified_name="orangecontrib.network.widgets.OWNxExplorer.OWNxExplorer" project_name="Orange3-Network" version="" title="Network Explorer" position="(197.0, 347.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Distances" sink_channel="Distances" enabled="true" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Network" sink_channel="Network" enabled="true" />
+		<link id="3" source_node_id="4" sink_node_id="5" source_channel="Network" sink_channel="Network" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04)\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00+\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01M\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01,\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00}', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x9a\x00\x00\x01\x11\x00\x00\x05\xe7\x00\x00\x03M\x00\x00\x01\x9b\x00\x00\x017\x00\x00\x05\xe6\x00\x00\x03L\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x9b\x00\x00\x017\x00\x00\x05\xe6\x00\x00\x03L', 'selected_id': 'core\\iris.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'autocommit': True, 'axis': 0, 'controlAreaVisible': True, 'metric_idx': 0, 'normalized_dist': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\x87\x00\x00\x01\xb4\x00\x00\x05[\x00\x00\x02\xbc\x00\x00\x04\x88\x00\x00\x01\xda\x00\x00\x05Z\x00\x00\x02\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x04\x88\x00\x00\x01\xda\x00\x00\x05Z\x00\x00\x02\xbb', '__version__': 3}</properties>
+		<properties node_id="2" format="literal">{'controlAreaVisible': True, 'edge_weights': 0, 'excludeLimit': 2, 'include_knn': False, 'kNN': 2, 'node_selection': 0, 'percentil': 0.8948545861297539, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x0e\x00\x00\x015\x00\x00\x05W\x00\x00\x03\x03\x00\x00\x02\x0e\x00\x00\x015\x00\x00\x05W\x00\x00\x03\x03\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\x0e\x00\x00\x015\x00\x00\x05W\x00\x00\x03\x03', '__version__': 1}</properties>
+		<properties node_id="3" format="pickle">gASVHQEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lImMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjA9lbmFi
+bGVkX21ldGhvZHOUj5QojAZyYWRpdXOUjA9udW1iZXJfb2Zfbm9kZXOUjA5hdmVyYWdlX2RlZ3Jl
+ZZSMD251bWJlcl9vZl9lZGdlc5SMCGRpYW1ldGVylIwcYXZlcmFnZV9zaG9ydGVzdF9wYXRoX2xl
+bmd0aJSMB2RlbnNpdHmUkIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAC2AAAAVIA
+AASnAAACwAAAAtkAAAF4AAAEpgAAAr8AAAAAAAAAAAeAAAAC2QAAAXgAAASmAAACv5SMC19fdmVy
+c2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="4" format="literal">{'controlAreaVisible': True, 'recentFiles': ['C:/Users/Hojun/OneDrive/문서/컴공자료/데이터과학기초/Dataset/datasets.2/networks/karate.net'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd9\x00\x00\x01\xe6\x00\x00\x04\xa6\x00\x00\x02Q\x00\x00\x02\xd9\x00\x00\x01\xe6\x00\x00\x04\xa6\x00\x00\x02Q\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd9\x00\x00\x01\xe6\x00\x00\x04\xa6\x00\x00\x02Q', '__version__': 1, 'context_settings': []}</properties>
+		<properties node_id="5" format="pickle">gASVyAIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjA5sYXlv
+dXRfZGVuc2l0eZRLCowJbWFya19ob3BzlEsBjA1tYXJrX21heF9jb25ulEsFjA1tYXJrX21pbl9j
+b25ulEsFjA5tYXJrX21vc3RfY29ubpRLAYwPb2JzZXJ2ZV93ZWlnaHRzlIiME3NhdmVkV2lkZ2V0
+R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAi8AAADKAAAFUAAAA0gAAAIwAAAA8AAABU8AAANHAAAAAAAA
+AAAHgAAAAjAAAADwAAAFTwAAA0eUjAlzZWxlY3Rpb26UTowPdmlzdWFsX3NldHRpbmdzlH2UjAVn
+cmFwaJR9lCiMC2FscGhhX3ZhbHVllEuAjA1jbGFzc19kZW5zaXR5lImMCmVkZ2Vfd2lkdGiUSwKM
+C2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVjdGVklImMFGxhYmVsX3NlbGVjdGVkX2Vk
+Z2VzlIiMC3BvaW50X3dpZHRolEsKjBRyZWxhdGl2ZV9lZGdlX3dpZHRoc5SIjBFzaG93X2VkZ2Vf
+d2VpZ2h0c5SJjAlzaG93X2dyaWSUiYwLc2hvd19sZWdlbmSUiHWMC19fdmVyc2lvbl9flEsBjBBj
+b250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGU
+fZQojAZ2YWx1ZXOUfZQojAphdHRyX2NvbG9ylE5K/v///4aUjAphdHRyX2xhYmVslE5K/v///4aU
+jAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3NpemWUTkr+////hpRoDn2UaBtLAXWMCmF0dHJp
+YnV0ZXOUfZSMBW1ldGFzlH2UjApub2RlX2xhYmVslEsDc3ViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
